@@ -13,7 +13,9 @@ Ce projet a été généré avec [Angular CLI](https://github.com/angular/angula
 
 2-Type: $ git clone https://github.com/MarwenBenTalebAli/application-blog.git
 
-3-Type: $ npm install
+3-Type: $cd application-blog
+
+4-Type: $ npm install
 
 ## Serveur de développement
 
