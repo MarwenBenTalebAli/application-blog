@@ -10,7 +10,9 @@ Ce projet a été généré avec [Angular CLI](https://github.com/angular/angula
 
 ## Installation
 1-Ouvrez Git Bash.
+
 2-Type: $ git clone https://github.com/MarwenBenTalebAli/application-blog.git
+
 3-Type: $ npm install
 
 ## Serveur de développement
