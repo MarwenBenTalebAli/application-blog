@@ -3,7 +3,7 @@
                 'list-group-item-danger': 0 > post.loveIts }">
   <div class="row">
     <h3 class="col-md-8">{{ post.title }}</h3>
-    <span class="col-md-4 text-right">{{ post.created_at | date:'MM/dd/yyyy, h:mm a' | uppercase }}</span>
+    <span class="col-md-4 text-right"><i>{{ post.created_at | date:'MM/dd/yyyy, h:mm a' | uppercase }}</i></span>
   </div>
   <p class="text-justify">
     {{ post.content }}
@@ -12,5 +12,6 @@
   <div class="btn-toolbar">
     <button type="button" class="btn btn-success" (click)="onLoveIt()">Love it</button>
     <button type="button" class="btn btn-danger" (click)="onDontLoveIt()">Don't love it</button>
+    <button type="button" class="btn btn-danger pull-right" (click)="onDeletePost(post)">Supprimer post</button>
   </div>
 </li>
