@@ -56,10 +56,12 @@ export class PostService {
   loveIt(post: Post) {
     post.loveIts++;
     this.savePosts();
+    this.emitPostSubject();
   }
 
   dontLoveIt(post: Post) {
     post.loveIts--;
     this.savePosts();
+    this.emitPostSubject();
   }
 }
